@@ -2,6 +2,7 @@
       <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
       <label for="mobile-menu">
         <svg>
+
           <use xlink:href="assets/img/symbols.svg#bar"></use>
         </svg>
         <svg>
@@ -12,7 +13,7 @@
         </svg>
       </label>
       <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a [routerLink]="['/portfolio']">Diego's portfolio<sup>tm</sup></a></h1>
+        <h1 class="rk-logo"><a [routerLink]="['/home']">{{_infoPagina.info.titulo}} portfolio<sup>tm</sup></a></h1>
         <nav class="rk-navigation">
           <ul class="rk-menu">
             <li routerLinkActive="active" class="rk-menu__item">
